@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSC Subject</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+            background-color: #ffffff; /* Light background for better shadow visibility */
+        }
+
+        .container {
+            text-align: center;
+            border: 2px solid #333;
+            border-radius: 20px;
+            padding: 30px;
+            width: 400px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        }
+
+        .logo {
+            margin-bottom: 10px;
+        }
+
+        .logo img {
+            width:200px; 
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            width: 200px;
+            height: 50px;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #2e8b57;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .button:hover {
+            background-color: #209c5a;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .logo img {
+                width: 150px; 
+            }
+            .container {
+                width: 300px; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="https://govardhanskillcentre.github.io/student/gsc%20logo.png" alt="Google Logo"> 
+        </div>
+
+        <div class="buttons">
+            <a href="https://drive.google.com/file/d/1yY5TW2NxoB9hqOqy2LuCtXkX034srSn8/view?usp=sharing" class="button">Workshop</a>
+            <a href="https://drive.google.com/file/d/1GxgvasnuT2PXz8neU3YW6TE6zlwsjFDk/view?usp=sharing#" class="button">Our Home Health</a>
+            <a href="https://drive.google.com/file/d/11sHIV6YuGtoZGmGcEN9s2X1a6sJY0dZZ/view?usp=sharing" class="button">Our Health</a>  
+            <a href="https://drive.google.com/file/d/1Su5w5NIPbNXJgZb1n9H1x0MpZ4V_9c3N/view?usp=sharing" class="button">Agriculture & Animal Husbandry</a>
+            <a href="https://drive.google.com/file/d/1lyNE_fLggSwEZniApKGl_PQ60qZjwEsb/view?usp=sharing" class="button">Transformer & Motor Winding</a>
+            <a href="https://drive.google.com/file/d/131owt7NEmvlKldeQXZzPZ0A-ZDeTGZFe/view?usp=sharing" class="button">House Wiring & Electrical Appliance Repair</a>
+            <a href="https://drive.google.com/file/d/1_urzBNiSCbu_XxTXoO1xd_YDbZRtpGwZ/view?usp=sharing" class="button">Welding Technology</a>
+            <a href="https://drive.google.com/file/d/1nJhkLSmuXJPChwX_l0OHzl5zNCUDpJVy/view?usp=sharing" class="button">Plumbing</a>
+
+            
+        </div>
+    </div>
+
+</body>
+</html>
