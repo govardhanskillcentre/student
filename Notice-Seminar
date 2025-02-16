@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT Upload Notice</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light background color */
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the text */
+        }
+
+        .logo {
+            max-width: 200px; /* Adjust logo size as needed */
+            margin-bottom: 5px;
+        }
+
+        .notice-content {
+            margin-bottom: 20px;
+        }
+
+        .accept-button {
+            background-color: green; /* Green button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .accept-button:hover {
+            background-color: darkgreen; /* Darker green on hover */
+        }
+        p{
+            align-items: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://govardhanskillcentre.github.io/student/gsc%20logo.png" alt="School Logo" class="logo">  <div class="notice-content">
+            <h2>Important Notice 📢💻</h2>
+
+
+            <p><strong>Attention all students:</strong></p>
+
+            <p>1. Please upload your PowerPoint (PPT) presentation as per the given instructions. 👍<br>
+                दिलेल्या निर्देशानुसार, आपली PowerPoint (पीपीटी) अपलोड करावी. 👍</p>
+
+            <p>2. If you face any difficulty during this process, please contact Mr. Onkar or Mr. Vivek. You can reach them via call 📞 or WhatsApp 💬.<br>
+                या प्रक्रियेत कोणतीही अडचण आल्यास, कृपया ओंकार सर किंवा विवेक सर यांच्याशी संपर्क साधा. आपण त्यांच्याशी कॉल 📞 किंवा WhatsApp 💬 द्वारे संपर्क साधू शकता.</p>
+
+            <p>3. Please ensure that you upload this presentation before 10:00 PM on Friday. ⏰<br>
+                कृपया पिपीटी शुक्रवार रात्री १०:०० वाजेच्या आत अपलोड करावी. ⏰</p>
+
+            <p><strong>Contact:</strong> +91 95795 62929 / +91 8010489713 📞💬</p>
+
+            <p><strong>Thank you! 🙏</strong></p>
+        </div>
+
+        <button class="accept-button" onclick="window.location.href='https://govardhanskillcentre.github.io/Subject/Seminar-form.html'">Accept</button> </div>
+</body>
+</html>
